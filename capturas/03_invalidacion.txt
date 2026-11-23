@@ -1,0 +1,6 @@
+1) GET  -> 200 X-Cache=HIT    1.49 ms | titulo[60005] = 'Libro de prueba 5'
+2) GET  -> 200 X-Cache=HIT    1.55 ms | JSON idéntico al 1): True
+3) PATCH -> 200 {'id': 60005, 'titulo': 'Libro de prueba 60005 (EDITADO 1795457854)', 'precio': '193.28'}
+4) GET  -> 200 X-Cache=MISS   5.93 ms | titulo[60005] = 'Libro de prueba 60005 (EDITADO 1795457854)'
+5) GET  -> 200 X-Cache=HIT    1.57 ms | JSON idéntico al 4): True
+OK: tras el cambio, la nueva solicitud devolvió los datos actualizados.

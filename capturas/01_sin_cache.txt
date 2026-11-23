@@ -1,0 +1,7 @@
+URL: http://127.0.0.1:8000/api/libros/?autor=garc%C3%ADa&page=1&page_size=200
+Solicitud 1: HTTP 200 | X-Cache: MISS |     36 ms | 75361 bytes
+Solicitud 2: HTTP 200 | X-Cache: MISS |     25 ms | 75361 bytes
+Solicitud 3: HTTP 200 | X-Cache: MISS |     33 ms | 75361 bytes
+Solicitud 4: HTTP 200 | X-Cache: MISS |     32 ms | 75361 bytes
+Solicitud 5: HTTP 200 | X-Cache: MISS |     22 ms | 75361 bytes
+Promedio de 5: 29.6 ms
